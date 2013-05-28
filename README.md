@@ -1,4 +1,5 @@
 To add a new algorithm:
+
 1. Add fn protoype in sorting_algorithms.h 
 2. Add fn to sorting_algorithms.cpp
 3. In main.cpp add a line to menu_graphics() 
