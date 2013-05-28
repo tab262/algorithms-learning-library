@@ -48,6 +48,7 @@ int main()
         int reset = 1;
         while (reset == 1)
         {
+            cout << "Sorting steps follow below" << endl;
             switch (pick)
             {
                 case 0:
