@@ -5,7 +5,7 @@ using namespace std;
 
 void insertion_sort(double array_in[], int len)
 {
-	for (int i = 1; i < len; i++)
+    for (int i = 1; i < len; i++)
 	{
 		double current_element = array_in[i];
 		int j;
