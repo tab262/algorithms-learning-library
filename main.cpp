@@ -9,7 +9,7 @@ string menu_graphics();
 
 int main()
 {
-	cout << "SUMMER ALGORITHMS: ALGORITHMS LIBRARY" << endl;
+    cout << "SUMMER ALGORITHMS: ALGORITHMS LIBRARY" << endl;
     for (int i = 0; i < 50; i++) { cout << "*"; } cout << endl;
 	string full_reset = "reset";
     while (full_reset == "reset" || full_reset == "Reset" || full_reset == "RESET")
@@ -80,7 +80,7 @@ int main()
        
         }
 
-		cout << "Enter [reset] if you'd like to enter a new array" << endl;
+        cout << "Enter [reset] if you'd like to enter a new array" << endl;
         cout << "Press anything to exit" << endl;
         cin >> full_reset;
 		if (full_reset != "reset" || full_reset != "Reset" || full_reset != "RESET")
